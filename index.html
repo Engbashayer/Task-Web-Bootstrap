@@ -2,38 +2,36 @@
 <html lang="en">
   <head>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello!</title>
   </head>
-  <body class="">
-    <div class="container py-4">
-      <div class="">
-        <div class="">
+  <body class="d-flex justify-content-center">
+    <div class="container py-4 text-center">
+      <div class="row row-cols-2">
+        <div style="background-color: red" class="card col">
           <img
             src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
-            class=""
+            class="m-3 rounded-circle"
             style="width: 80px; height: 80px"
             alt="Avatar"
           />
-          <h5 class=""><strong>John Doe</strong></h5>
-          <button type="button" class="">Contact</button>
+          <h5 class="m-3"><strong>John Doe</strong></h5>
+          <button type="button" class="m-3 btn btn-success">Contact</button>
         </div>
-        <div class="">
+        <div style="background-color: blue" class="card col">
           <strong>My Progress</strong>
-          <ul class="">
-            <li class="">
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
               <div class="">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
@@ -43,9 +41,9 @@
                 />
                 <div class="">
                   <p class="">Django</p>
-                  <div class="">
+                  <div class="progress">
                     <div
-                      class=""
+                      class="progress-bar bg-success"
                       role="progressbar"
                       style="width: 80%"
                       aria-valuenow="50"
@@ -55,11 +53,13 @@
                   </div>
                 </div>
               </div>
-              <span class="">&rarr;</span>
+              <span class="badge text-bg-success rounded-pill">&rarr;</span>
             </li>
           </ul>
-          <ul class="">
-            <li class="">
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
               <div class="">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
@@ -69,9 +69,9 @@
                 />
                 <div class="">
                   <p class="">Flutter</p>
-                  <div class="">
+                  <div class="progress">
                     <div
-                      class=""
+                      class="progress-bar bg-info"
                       role="progressbar"
                       style="width: 30%"
                       aria-valuenow="50"
@@ -81,11 +81,13 @@
                   </div>
                 </div>
               </div>
-              <span class="">&rarr;</span>
+              <span class="badge text-bg-info rounded-pill">&rarr;</span>
             </li>
           </ul>
-          <ul class="">
-            <li class="">
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
               <div class="">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
@@ -95,9 +97,9 @@
                 />
                 <div class="">
                   <p class="">Html</p>
-                  <div class="">
+                  <div class="progress">
                     <div
-                      class=""
+                      class="progress-bar bg-danger"
                       role="progressbar"
                       style="width: 80%"
                       aria-valuenow="50"
@@ -107,11 +109,13 @@
                   </div>
                 </div>
               </div>
-              <span class="">&rarr;</span>
+              <span class="badge bg-danger rounded-pill">&rarr;</span>
             </li>
           </ul>
-          <ul class="">
-            <li class="">
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
               <div class="">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
@@ -121,9 +125,9 @@
                 />
                 <div class="">
                   <p class="">CSS</p>
-                  <div class="">
+                  <div class="progress">
                     <div
-                      class=""
+                      class="progress-bar bg-primary"
                       role="progressbar"
                       style="width: 80%"
                       aria-valuenow="50"
@@ -133,11 +137,11 @@
                   </div>
                 </div>
               </div>
-              <span class="">&rarr;</span>
+              <span class="badge bg-primary rounded-pill">&rarr;</span>
             </li>
           </ul>
         </div>
-        <div class="">
+        <div style="background-color: blueviolet" class="card col">
           <strong>Reach me</strong>
           <form>
             <div class="">
@@ -173,7 +177,7 @@
             <button type="submit" class="">Submit</button>
           </form>
         </div>
-        <div class="">
+        <div style="background-color: aquamarine" class="card col">
           <strong>My Blog</strong>
           <div class="" style="height: auto; min-height: 450px">
             <ol class="">
@@ -222,5 +226,10 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
